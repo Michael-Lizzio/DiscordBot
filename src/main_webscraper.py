@@ -413,7 +413,7 @@ if __name__ == "__main__":
         'password': '',
         'ip': ''
     }
-    scraper = MainWebScraper(website_url="https://pinterest.com/login",
+    scraper = MainWebScraper(website_url="https://discord.com/channels/701536543633834025/738109685265072208",
                              log_value=2, speed_limiter=1.5, headless=False, debug_name="Test", profile="Profile 999",
                              undetectable=False, proxy_info=None)
     # scraper.click_button("xpath", button_path="//a[text()='App Center']")
